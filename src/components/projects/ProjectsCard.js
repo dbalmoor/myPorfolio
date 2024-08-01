@@ -18,7 +18,7 @@ const ProjectsCard = ({ title, des, src, gitref, webref }) => {
       </div>
       <div>
         <div className="w-full mt-0 xl:px-5 h-auto xl:py-8 flex flex-col gap-2">
-          <div className="flex items-center justify-between">
+          <div className="xs:pt-2 flex items-center justify-between">
             <h3 className="text-base uppercase text-designColor font-normal">
               {title}
             </h3>

@@ -14,7 +14,7 @@ const Experience = () => {
             <p className='text-sm text-designColor tracking-[4px]'>2018 - Present</p>
             <h2 className='text-4xl font-bold'>Certifications</h2>
           </div>
-          <div className=' w-full h-[2000px] border-l-[6px] border-l-black 
+          <div className=' w-full h-[3000px] lgl:h-[2000px] border-l-[6px] border-l-black 
           border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
               title="The Complete Java Development Bootcamp"

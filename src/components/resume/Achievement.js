@@ -17,7 +17,7 @@ const Achievement = () => {
           <h2 className="text-4xl font-bold">WEB INSIGHTS</h2>
         </div>
         <div
-          className="pb-5 w-full h-[350px] flex flex-col border-l-[6px] border-l-black 
+          className="pb-5 w-full h-[400px] flex flex-col border-l-[6px] border-l-black 
           border-opacity-30"
         >
           <ResumeCard

@@ -14,7 +14,7 @@ const Education = () => {
             <p className='flex text-sm text-designColor tracking-[4px]'>2018 - Present</p>
             <h2 className='flex text-3xl md:text-4xl font-bold'>Education Quality</h2>
           </div>
-          <div className=' w-full h-[1000px] border-l-[6px] border-l-black 
+          <div className=' w-full  h-[1200px] border-l-[6px] border-l-black 
           border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
               title="BTech in Information Technology"

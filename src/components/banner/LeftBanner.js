@@ -8,13 +8,15 @@ import {
   FaJava,
   FaHtml5,
 } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
-
+import { SiNodedotjs } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Undergraduate Student.", "Coder.", "Web Developer."],
+    words: ["Graduate.", "Coder.", "Web Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -36,14 +38,14 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a rising senior from Geethanjali College of Engineering and
-          Technology pursuing Bachelor of Technology in Information Technology.
+        <p className="text-base font-bodyFont leading-6 tracking-wide ">
+          I am a Graduate from Geethanjali College of Engineering and
+          Technology pursued Bachelor of Technology in Information Technology.
           The skills I possess include web development and Java programming.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 xl:gap-0 justify-between">
-        <div>
+        {/* <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
@@ -73,15 +75,13 @@ const LeftBanner = () => {
               <FaLinkedinIn />
             </a>
           </div>
-        </div>
+        </div> */}
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 ">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
+            
             <span className="bannerIcon">
               <FaJava />
             </span>
@@ -90,6 +90,18 @@ const LeftBanner = () => {
             </span>
             <span className="bannerIcon">
               <SiTailwindcss />
+            </span>
+            <span className="bannerIcon">
+              <BiLogoMongodb />
+            </span>
+            <span className="bannerIcon">
+              <SiExpress />
+            </span>
+            <span className="bannerIcon">
+              <FaReact />
+            </span>
+            <span className="bannerIcon">
+              <SiNodedotjs />
             </span>
           </div>
         </div>

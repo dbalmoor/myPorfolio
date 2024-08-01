@@ -15,59 +15,63 @@ const Navbar = () => {
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           <li
-            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
-            hover:text-designColor duration-300"
-          >
-            <Link
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              to="/"
-            >
-              Home
-            </Link>
-          </li>
+                  className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
+                hover:text-designColor duration-300"
+                >
+                  <Link
+                    onClick={() => {
+                      setShowMenu(false);
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/"
+                  >
+                    Home
+                  </Link>
+                </li>
 
-          <li
-            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
-            hover:text-designColor duration-300"
-          >
-            <Link
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              to="/Projects"
-            >
-              Projects
-            </Link>
-          </li>
-          <li
-            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
-            hover:text-designColor duration-300"
-          >
-            <Link
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              to="/Resume"
-            >
-              Resume
-            </Link>
-          </li>
-          <li
-            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
-            hover:text-designColor duration-300"
-          >
-            <Link
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              to="/Contact"
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+                <li
+                  className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
+                hover:text-designColor duration-300"
+                >
+                  <Link
+                    onClick={() => {
+                      setShowMenu(false);
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/Projects"
+                  >
+                    Projects
+                  </Link>
+                </li>
+                <li
+                  className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
+                hover:text-designColor duration-300"
+                >
+                  <Link
+                    onClick={() => {
+                      setShowMenu(false);
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/Resume"
+                  >
+                    Resume
+                  </Link>
+                </li>
+                <li
+                  className="text-base font-normal text-gray-400 tracking-wide cursor-pointer 
+                hover:text-designColor duration-300"
+                >
+                  <Link
+                    onClick={() => {
+                      setShowMenu(false);
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/Contact"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center

@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
-import { Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
@@ -49,59 +48,6 @@ const Footer = () => {
               <FaLinkedinIn />
             </a>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-col justify-center items-center">
-          <h2 className="text-designColor uppercase text-xl">NAVIGATE</h2>
-          <ul className="flex lgl:flex-row flex-col gap-10 font-titleFont font-medium overflow-hidden py-6">
-            <li>
-              <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/"
-                >
-                  Home
-                </Link>
-              </span>
-            </li>
-            <li>
-              <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/Projects"
-                >
-                  Projects
-                </Link>
-              </span>
-            </li>
-            <li>
-              <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/Resume"
-                >
-                  Resume
-                </Link>
-              </span>
-            </li>
-            <li>
-              <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/Contact"
-                >
-                  Contact
-                </Link>
-              </span>
-            </li>
-          </ul>
         </div>
       </div>
     </div>

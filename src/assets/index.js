@@ -3,6 +3,9 @@ import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpg";
+import projectFour from "./images/projects/projectFour.jpg";
+import projectFive from "./images/projects/projectFive.jpg";
+import projectSix from "./images/projects/projectSix.jpg";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -11,5 +14,8 @@ export {
   projectOne,
   projectTwo,
   projectThree,
-  contactImg,
+  projectFour, 
+  projectFive, 
+  projectSix,
+  contactImg
 };

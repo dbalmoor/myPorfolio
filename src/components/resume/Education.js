@@ -19,20 +19,20 @@ const Education = () => {
             <ResumeCard
               title="BTech in Information Technology"
               subTitle="Geethanjali College of Engineering and Technology (2020 - 2024)"
-              result="8.96/10"
-              des="Currently pursuing my Bachelor's in Information Technology from Geethanjali College of Engineering and Technology."
+              result="8.94/10"
+              des="Pursued Bachelor's in Information Technology from Geethanjali College of Engineering and Technology."
             />
             <ResumeCard
               title="Intermediate in MPC"
               subTitle="Narayana Junior College (2018 - 2020)"
               result="93.7/100"
-              des="Pursued my Intermediate in MPC from Narayana Junior College."
+              des="Pursued Intermediate in MPC from Narayana Junior College."
             />
             <ResumeCard
               title="Secondary Education"
-              subTitle="Narayana Concept School (2016 - 2018)"
+              subTitle="Narayana Concept School (2017 - 2018)"
               result="9.3/10"
-              des="Pursued my Secondary education in SSC from Narayana concept school."
+              des="Pursued Secondary education in SSC from Narayana concept school."
             />
           </div>
         </div>
